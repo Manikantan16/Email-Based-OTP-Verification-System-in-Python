@@ -11,18 +11,27 @@
   - smtplib – to send emails
   - random – for OTP generation
   - dotenv - Keep your Gmail SMTP credentials hidden by storing them outside your main VS Code project, such as in a .env file.
+  - Commands:
+      -  pip install python-dotenv
 ## 🧩 Workflow:
 - Key in the Senders Name
 - Key in the Senders Email
-- 
-System generates an OTP
+- System generates an OTP and OTP is sent to the senders email
+- User enters OTP
+- System verifies OTP
+- If Valid then ✅ OTP verified successfully! 🔐 If not, you'll see: ❌ Incorrect OTP.
+## 📷 O/P Screenshots:
+- *Wrong OTP*
+  ![Incorrect_OTP](https://github.com/user-attachments/assets/543f9153-ffc8-43ec-95f1-6bdfadce69d1)
 
-OTP is sent via email
+- *Valid OTP*
+  ![Correct_OTP](https://github.com/user-attachments/assets/4257e620-4e6c-4ce8-8c7b-c711145acde1)
 
-User enters OTP
+## ✍️ Conclusion:
+Implementing an OTP (One-Time Password) verification system enhances the security and reliability of user authentication. By generating and validating time-sensitive OTPs—especially when combined with secure email delivery and environment variable management—developers can protect sensitive actions and user data. 
 
-System verifies OTP
-
-Access is granted or denied
+A special thanks to my friend Sunitha Mekala 👫🙏 for inspiring me throughout this journey.
+  
+  
     
  
