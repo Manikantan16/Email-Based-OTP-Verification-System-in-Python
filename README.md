@@ -13,6 +13,9 @@
   - dotenv - Keep your Gmail SMTP credentials hidden by storing them outside your main VS Code project, such as in a .env file.
   - Commands:
       -  pip install python-dotenv
+## 📌 Note:
+ - To securely use Gmail SMTP, you need to generate and use an App Password if 2-Step Verification is enabled on your Google account.
+ - Without it, emails will fail to send.
 ## 🧩 Workflow:
 - Key in the Senders Name
 - Key in the Senders Email
@@ -30,8 +33,8 @@
 ## ✍️ Conclusion:
 Implementing an OTP (One-Time Password) verification system enhances the security and reliability of user authentication. By generating and validating time-sensitive OTPs—especially when combined with secure email delivery and environment variable management—developers can protect sensitive actions and user data. 
 
-A special thanks to my friend Sunitha Mekala 👫🙏 for inspiring me throughout this journey.
+A special thanks to my dear friend Sunitha 👫🙏 for inspiring me throughout this journey.
   
   
-    
+
  
